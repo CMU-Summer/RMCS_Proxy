@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+        <sleepTime value="300"></sleepTime>
+        <feedbackFrequency value="1"/>
+        <redisList>
+            <redis ip="98.142.139.215" port="6379" password="rmcsCache..."/>
+        </redisList>
+        <servers>
+            <server ip="127.0.0.1" port="9293" />
+        </servers>
+        <databases>
+            <database ip="127.0.0.1" port="3306" user="aqe" pwd="qqqq" dbSchme="rmcs" >
+                <parms>
+                    <parm name="charset" value="utf8" />
+                </parms>
+            </database>
+        </databases>
+	<groups>
+		<group name = "testGroup">
+			<family name = "SEA-snake">
+				<names>
+					<name>SA011</name>
+				</names>
+			</family>
+			
+			<family name = "Spare">
+				<names>
+					<name>SA035</name>
+				</names>
+			</family>
+
+		</group>
+
+	</groups>
+</config>
