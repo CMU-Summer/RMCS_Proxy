@@ -12,6 +12,7 @@ Download RMCS_PROXY_FINAL_VERSION. All materials inside is what you need.
 3. Tips for Developer
 Open RMCS_PROXY_DEMO.sln in VS2017.
 Reset the directory of boost as yours.
+Modify the configuration property in resource/config.xml
 
 You can run redisclient-win32.x86_64.2.0.jar to run the redis client.
 
